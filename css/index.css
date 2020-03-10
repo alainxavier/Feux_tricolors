@@ -1,0 +1,50 @@
+main {
+    background-color: aliceblue;
+    width: 800px;
+    height: 500px;
+}
+
+form {
+    background-color: rgb(216, 234, 250);
+    border-radius: 5px;
+    width: 740px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#valider {
+    font-size: 20px;
+    position: relative;
+    left: 600px;
+    top: -45px;
+}
+
+#affiche {
+    color: brown;
+    position: relative;
+    left: 550px;
+    top: -20px;
+    border: solid 1px rgb(2, 34, 63);
+    width: 30px;
+    background-color: aliceblue;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgb(2, 34, 63);
+    font-weight: bold;
+}
+#temps {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#rouge {
+    font-weight: bold;
+    color: red;
+}
+
+#vert {
+    font-weight: bold;
+    color: rgb(9, 221, 9);
+}

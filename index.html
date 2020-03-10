@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tests</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <main>
+            <form>
+                Modifier ici le temps des feux <span id="rouge">rouge</span> et <span id="vert">vert</span> :
+                <input type="range" name="temps" min="5" max="90" id="temps" value="15" size="100"><br>
+                <div id="affiche"></div>
+                <input type="submit" value="Relancer" id="valider">
+            </form>
+            
+            <canvas id="canvas" width="600" height="400"></canvas>
+        </main>
+        
+
+        
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
